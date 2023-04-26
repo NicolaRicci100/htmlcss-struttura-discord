@@ -4,3 +4,26 @@
     box-sizing: border-box;
 }
 
+header{
+    display: flex;
+    height: 50px;
+    background-color: rgb(173,216,230) ;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+header > div{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(218,165,32);
+    border: 2px dashed black;
+    padding: 3px;
+}
+
+.link{
+    width: 500px;
+    text-align: center;
+}
+.login{
+    text-align: right;
+}
